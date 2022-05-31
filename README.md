@@ -65,6 +65,10 @@
    npm run serve
    ```
 
+## 📊 Google Lighthouse Performance Metrics
+
+![Google Lighthouse Performance Metrics](https://raw.githubusercontent.com/pycoder2000/portfolio-v4/main/src/images/Performance%20Metrics.png)
+
 ## 🚨 Forking this repo
 
 If you fork this website, **please attribute it** to the <a href="https://brittanychiang.com/" target="_blank">original author</a>.
