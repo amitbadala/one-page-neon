@@ -86,7 +86,7 @@ const Hero = () => {
       target="_blank"
       rel="noreferrer"
     >
-      Connect me
+      Contact me
     </a>
   );
 
