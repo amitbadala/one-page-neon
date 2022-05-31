@@ -12,7 +12,7 @@ module.exports = {
     },
     {
       name: 'Linkedin',
-      url: 'https://twitter.com/lone_Musk',
+      url: 'https://www.linkedin.com/in/parth-desai-2bb1b0160/',
     },
   ],
 
