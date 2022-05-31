@@ -140,10 +140,10 @@ const About = () => {
               <a href="https://nirmauni.ac.in/" target="_blank" rel="noreferrer">
                 Nirma University
               </a>{' '}
-              in 2022. I was introducted to Data Science in my fifth semester have been interested
-              ever since. Besides studying and programming, I love participating in debates,
-              extempores or general discussions. On an off day you'll find me bundled up in a corner
-              reading something.
+              in 2022. I was introduced to Data Science in my 5<sup>th</sup> semester and have been
+              interested ever since. Besides studying and programming, I love participating in
+              debates, extempores or general discussions. On an off day you'll find me bundled up in
+              a corner reading something.
             </p>
 
             <p>
@@ -154,8 +154,8 @@ const About = () => {
             </p>
 
             <p>
-              I am a strong advocate for open source and always on the lookout for new projects to
-              work on and new people to collaborate with. Do check out my{' '}
+              I am a strong advocate for open source and I am always interested in working on new
+              projects with new people. Do check out my{' '}
               <a
                 href="https://github.com/pycoder2000?tab=repositories"
                 target="_blank"
@@ -192,7 +192,7 @@ const About = () => {
               className="img"
               src="../../images/profile.jpeg"
               width={500}
-              quality={95}
+              quality={100}
               formats={['AUTO', 'WEBP', 'AVIF']}
               alt="Headshot"
             />
