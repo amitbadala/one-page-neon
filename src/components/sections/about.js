@@ -136,30 +136,46 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
-            </p>
-
-            <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
-            </p>
-
-            <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
+              I finished my bachelors from{' '}
+              <a href="https://nirmauni.ac.in/" target="_blank" rel="noreferrer">
+                Nirma University
               </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              in 2022. I was introducted to Data Science in my fifth semester have been interested
+              ever since. Besides studying and programming, I love participating in debates,
+              extempores or general discussions. On an off day you'll find me bundled up in a corner
+              reading something.
+            </p>
+
+            <p>
+              I am always looking to learn new things. I am currently working on a few projects
+              related to <b>Natural Language Processing</b> and <b>Machine Learning</b>. At the same
+              time I am actively on the lookout for remote internships which I can pursue in field
+              of Data Science.
+            </p>
+
+            <p>
+              I am a strong advocate for open source and always on the lookout for new projects to
+              work on and new people to collaborate with. Do check out my{' '}
+              <a
+                href="https://github.com/pycoder2000?tab=repositories"
+                target="_blank"
+                rel="noreferrer"
+              >
+                repositories
+              </a>{' '}
+              and feel free to reach out on{' '}
+              <a
+                href="https://api.whatsapp.com/send?phone=916358190818&text=hi"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Whatsapp
+              </a>{' '}
+              or{' '}
+              <a href="mailto:%20desaiparth2000@gmail.com" target="_blank" rel="noreferrer">
+                email
+              </a>{' '}
+              if you would like to collaborate on any project.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
@@ -174,7 +190,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              src="../../images/profile.jpeg"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}
