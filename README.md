@@ -16,6 +16,7 @@
 
 <p align="center">
   ![Gatsby](https://img.shields.io/badge/Gatsby-%23663399.svg?style=for-the-badge&logo=gatsby&logoColor=white)
+  ![Gatsby](https://img.shields.io/badge/Gatsby-663399?style=for-the-badge&logo=gatsby&logoColor=white)
 </p>
 
 ![demo](https://raw.githubusercontent.com/pycoder2000/portfolio-v4/main/src/images/demo.png)
