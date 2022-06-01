@@ -3,7 +3,7 @@ date: '3'
 title: 'Stock Portfolio Management'
 cover: './demo.png'
 cta: 'https://github.com/pycoder2000/Stock-Management-App'
-external: ''
+external: 'https://github.com/pycoder2000/Stock-Management-App/blob/main/2CSDE86%20ADF%20-%20Innovative%20Assignment%20-%2018BCE150%20-%2018BCE135%20-%2018BCE147.pdf'
 tech:
   - Django
   - HTML
