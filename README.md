@@ -67,7 +67,7 @@
 
 ## 📊 Google Lighthouse Performance Metrics
 
-![Google Lighthouse Performance Metrics]([https://raw.githubusercontent.com/pycoder2000/portfolio-v4/main/src/images/Performance%20Metrics.png](https://raw.githubusercontent.com/pycoder2000/portfolio-v4/main/src/images/Google%20Lighthouse%20Performance%20Metrtics.png))
+![Google Lighthouse Performance Metrics](https://raw.githubusercontent.com/pycoder2000/portfolio-v4/main/src/images/Google%20Lighthouse%20Performance%20Metrtics.png)
 
 ## 🚨 Forking this repo
 
