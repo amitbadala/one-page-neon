@@ -4,8 +4,8 @@ module.exports = {
   siteMetadata: {
     title: 'Parth Desai',
     description:
-      'Parth Desai is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: 'https://parthdesai.vercel.app/', // No trailing slash allowed!
+      'I am a Data Engineer who is passionate about Data Science and Automation. In my free time, I like developing.',
+    siteUrl: 'https://parthdesai.vercel.app', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@lone_Musk',
   },
