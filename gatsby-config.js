@@ -2,7 +2,7 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Parth Desai',
+    title: 'Portfolio | Parth Desai',
     description:
       'I am a Data Engineer who is passionate about Data Science and Automation. In my free time, I like developing.',
     siteUrl: 'https://parthdesai.vercel.app', // No trailing slash allowed!
