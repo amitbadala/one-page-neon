@@ -137,41 +137,24 @@ const About = () => {
             <p>
               I finished my bachelors from{' '}
               <a href="https://nirmauni.ac.in/" target="_blank" rel="noreferrer">
-                Nirma University
+                VIT, Mumbai University
               </a>{' '}
-              in 2022. I was introduced to Data Science in my 5<sup>th</sup> semester and have been
-              interested ever since. Besides studying and programming, I love participating in
-              debates, extempores or general discussions. On an off day you'll find me bundled up in
-              a corner reading something.
+              in 2014. I am an experienced software engineer with over 7 years of industry
+              experience, including 4 years of remote work. I have built a diverse range of
+              applications across different industries and have led the architecture of{' '}
+              <strong>several Front End & Back End projects from scratch</strong>.
             </p>
 
             <p>
-              I am always looking to learn new things. I am currently working on a few projects
-              related to <b>Natural Language Processing</b> and <b>Machine Learning</b>. At the same
-              time I am actively on the lookout for remote internships which I can pursue in field
-              of Data Science.
+              I understand the key characteristics required to excel as an Engineer, including the
+              ability to foster a strong coding culture and maintain best practices. Solving
+              intricate UX challenges using streamlined UI and adaptable code brings me immense
+              satisfaction, and I eagerly embrace opportunities to tackle demanding projects which
+              may include learning new technologies
             </p>
 
             <p>
-              I am a strong advocate for open source and I am always interested in working on new
-              projects with new people. Do check out my{' '}
-              <a
-                href="https://github.com/pycoder2000?tab=repositories"
-                target="_blank"
-                rel="noreferrer"
-              >
-                repositories
-              </a>{' '}
-              and feel free to reach out on{' '}
-              <a
-                href="https://api.whatsapp.com/send?phone=916358190818&text=hi"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Whatsapp
-              </a>{' '}
-              or{' '}
-              <a href="mailto:%20desaiparth2000@gmail.com" target="_blank" rel="noreferrer">
+              <a href="mailto:%20hello@amitbadala.com" target="_blank" rel="noreferrer">
                 email
               </a>{' '}
               if you would like to collaborate on any project.

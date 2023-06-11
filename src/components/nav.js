@@ -17,7 +17,8 @@ const StyledHeader = styled.header`
   padding: 0px 50px;
   width: 100%;
   height: var(--nav-height);
-  background-color: rgba(10, 25, 47, 0.85);
+  background-color: rgba(249, 249, 249, 0.65);
+  background-color: 
   filter: none !important;
   pointer-events: auto !important;
   user-select: auto !important;
@@ -38,15 +39,14 @@ const StyledHeader = styled.header`
       css`
         height: var(--nav-scroll-height);
         transform: translateY(0px);
-        background-color: rgba(10, 25, 47, 0.85);
-        box-shadow: 0 10px 30px -10px var(--navy-shadow);
+        box-shadow: 0 5px 4px -12px var(--navy-shadow);
       `};
 
     ${props =>
     props.scrollDirection === 'down' &&
       !props.scrolledToTop &&
       css`
-        box-shadow: 0 10px 30px -10px var(--navy-shadow);
+        box-shadow: 0 10px 4px -12px var(--navy-shadow);
       `};
   }
 `;
@@ -92,7 +92,7 @@ const StyledLinks = styled.div`
     display: none;
   }
 
-  ol {
+  ul {
     ${({ theme }) => theme.mixins.flexBetween};
     padding: 0;
     margin: 0;
@@ -102,15 +102,15 @@ const StyledLinks = styled.div`
       margin: 0 5px;
       position: relative;
       counter-increment: item 1;
+      color: var(--navy);
       font-size: var(--fz-xs);
 
       a {
         padding: 10px;
 
         &:before {
-          content: '0' counter(item) '.';
           margin-right: 5px;
-          color: var(--green);
+          color: var(--navy);
           font-size: var(--fz-xxs);
           text-align: right;
         }
@@ -184,14 +184,14 @@ const Nav = ({ isHome }) => {
             {Logo}
 
             <StyledLinks>
-              <ol>
+              <ul>
                 {navLinks &&
                   navLinks.map(({ url, name }, i) => (
                     <li key={i}>
                       <Link to={url}>{name}</Link>
                     </li>
                   ))}
-              </ol>
+              </ul>
               <div>{ResumeLink}</div>
             </StyledLinks>
 
@@ -208,7 +208,7 @@ const Nav = ({ isHome }) => {
             </TransitionGroup>
 
             <StyledLinks>
-              <ol>
+              <ul>
                 <TransitionGroup component={null}>
                   {isMounted &&
                     navLinks &&
@@ -220,7 +220,7 @@ const Nav = ({ isHome }) => {
                       </CSSTransition>
                     ))}
                 </TransitionGroup>
-              </ol>
+              </ul>
 
               <TransitionGroup component={null}>
                 {isMounted && (

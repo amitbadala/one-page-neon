@@ -18,9 +18,9 @@ const StyledHeroSection = styled.section`
 
   h1 {
     margin: 0 0 30px 4px;
-    color: var(--green);
+    color: var(--navy);
     font-family: var(--font-mono);
-    font-size: clamp(var(--fz-sm), 5vw, var(--fz-md));
+    font-size: clamp(var(--fz-xl), 5vw, var(--fz-md));
     font-weight: 400;
 
     @media (max-width: 480px) {
@@ -59,38 +59,34 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Parth Desai.</h2>;
-  const three = <h3 className="big-heading">I design and code simple things.</h3>;
+  const two = (
+    <h2 className="big-heading">
+      Amit Badala{' '}
+      <span role="img" aria-label="hi">
+        👋
+      </span>
+    </h2>
+  );
+  const three = <h3 className="big-heading">I am Full Stack Engineer with 7+ yrs of exp.</h3>;
   const four = (
     <>
       <p>
-        I am an India based Data Engineer with a bachelors in Computer Science. I am passionate
-        about Data Science and Automation. I am also fascinated with Mathematics and wish to make a
-        career out of it someday. Currently, I’m focused on building data pipelines and automating
-        them at{' '}
-        <a
-          href="https://www.accenture.com/gr-en/about/consulting-index"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Accenture
-        </a>
-        .
+        I have built a diverse range of applications across different industries and have led the
+        architecture of several Front End & Back End projects from scratch.
+        <br />
+        Solving intricate UX challenges using streamlined UI and adaptable code brings me immense
+        satisfaction, and I eagerly embrace opportunities to tackle demanding projects which may
+        include learning new technologies
       </p>
     </>
   );
-  const five = (
-    <a
-      className="email-link"
-      href="mailto:desaiparth2000@gmail.com"
-      target="_blank"
-      rel="noreferrer"
-    >
-      Contact me
-    </a>
-  );
+  // const five = (
+  //   <a className="email-link" href="mailto:hello@amitbadala.com" target="_blank" rel="noreferrer">
+  //     Contact me
+  //   </a>
+  // );
 
-  const items = [one, two, three, four, five];
+  const items = [one, two, three, four];
 
   return (
     <StyledHeroSection>

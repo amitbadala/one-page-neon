@@ -1,5 +1,5 @@
 module.exports = {
-  email: 'desaiparth2000@gmail.com',
+  email: 'hello@amitbadala.com',
 
   socialMedia: [
     {
@@ -35,7 +35,7 @@ module.exports = {
     },
     {
       name: 'Blog',
-      url: 'https://musing.vercel.app/',
+      url: '/',
     },
   ],
 

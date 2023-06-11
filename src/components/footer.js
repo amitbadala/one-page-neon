@@ -108,7 +108,7 @@ const Footer = () => {
         <a href="https://github.com/pycoder2000/portfolio-v4">
           <div>Designed &amp; Built by Brittany Chiang</div>
           <br></br>
-          <div>Revised by Parth Desai</div>
+          <div>Revised by Amit Badala</div>
           {githubInfo.stars && githubInfo.forks && (
             <div className="github-stats">
               <span>
