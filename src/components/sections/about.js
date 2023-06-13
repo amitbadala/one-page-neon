@@ -6,8 +6,6 @@ import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
 
 const StyledAboutSection = styled.section`
-  max-width: 900px;
-
   .inner {
     display: grid;
     grid-template-columns: 3fr 2fr;
@@ -152,7 +150,6 @@ const About = () => {
               satisfaction, and I eagerly embrace opportunities to tackle demanding projects which
               may include learning new technologies
             </p>
-
             <p>
               <a href="mailto:%20hello@amitbadala.com" target="_blank" rel="noreferrer">
                 email
@@ -172,7 +169,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/profile.jpeg"
+              src="../../images/untitled.jpeg"
               width={500}
               quality={100}
               formats={['AUTO', 'WEBP', 'AVIF']}

@@ -7,7 +7,6 @@ import { navLinks } from '@config';
 import { loaderDelay } from '@utils';
 import { useScrollDirection, usePrefersReducedMotion } from '@hooks';
 import { Menu } from '@components';
-import { IconLogo } from '@components/icons';
 
 const StyledHeader = styled.header`
   ${({ theme }) => theme.mixins.flexBetween};
@@ -65,8 +64,6 @@ const StyledNav = styled.nav`
 
     a {
       color: var(--green);
-      width: 42px;
-      height: 42px;
 
       &:hover,
       &:focus {
@@ -81,6 +78,15 @@ const StyledNav = styled.nav`
         user-select: none;
       }
     }
+  }
+
+  .logo-text {
+    span {
+      font-size: 77px;
+    }
+    font-weight: bolder;
+    color: var(--light-navy);
+    letter-spacing: -18.4px;
   }
 `;
 
@@ -160,11 +166,13 @@ const Nav = ({ isHome }) => {
     <div className="logo" tabIndex="-1">
       {isHome ? (
         <a href="/" aria-label="home">
-          <IconLogo />
+          <h1 className="medium-heading logo-text">
+            <span className="big-heading">a</span>B
+          </h1>
         </a>
       ) : (
         <Link to="/" aria-label="home">
-          <IconLogo />
+          AB
         </Link>
       )}
     </div>

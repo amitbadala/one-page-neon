@@ -71,12 +71,11 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I have built a diverse range of applications across different industries and have led the
-        architecture of several Front End & Back End projects from scratch.
+        <br />I love javascript and everything on web, when my dev-senses kick in I build presumably
+        awesome stuff. I've always been drawn to the overlap between design and development.
         <br />
-        Solving intricate UX challenges using streamlined UI and adaptable code brings me immense
-        satisfaction, and I eagerly embrace opportunities to tackle demanding projects which may
-        include learning new technologies
+        <br />I have built a diverse range of applications across different industries and have led
+        the architecture of several Front End & Back End projects from scratch.
       </p>
     </>
   );
